@@ -1,19 +1,45 @@
-/* ------------ GOOGLE FONTS ------------ */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-:root{
-  --font: 'Poppins', sans-serif;
-  --title-font-size: 2.25rem;
-  
-  --big-font-size: 1.5rem;
-  --middle-font-size: 1.125rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.75rem;
-  --bg-color: #d4a4a4;
-  --second-bg-color: #808080;
-  --text-color:#0a0a38;
-  --second-text-color: #080000;
-  --main-color:#131613;
-  --height-nav: 3em;
-  --padding-container: 3em 0;
-  --border-bottom: 4px solid var(--main-color);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fffaf3;
+    color: #4b3d2a;
+}
+
+header {
+    background-color: #6f4e37;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+section {
+    padding: 30px 20px;
+}
+
+.sobre, .contato {
+    background-color: #f6f1e7;
+    margin: 20px 0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.galeria .imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6f4e37;
+    color: white;
 }
